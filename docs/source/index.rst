@@ -1,22 +1,14 @@
-Welcome to Lumache's documentation!
+Welcome to ESP32 Spotify Controller!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+This project uses *Elecrow 3.2" ESP32 display* to create a touchscreen Spotify controller, written in C++ with the Arduino framework. Displays the currently playing track, album art, and playback controls.
 
 .. note::
-
-   This project is under active development.
+This project was built as a hands on dive into embedded systems fundamentals, SPI peripherals, touch digitizer calibration, OAuth flows on constrained hardware, and real time UI rendering without an OS
 
 Contents
 --------
 
 .. toctree::
-
    usage
    api

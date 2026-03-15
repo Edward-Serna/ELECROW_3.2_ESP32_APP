@@ -2,3 +2,4 @@
 .idea
 .vscode
 include/secrets.h
+docs/.venv/
